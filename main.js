@@ -144,7 +144,7 @@ buttonEl.addEventListener("click", () => {
     if (currentQuiz < quizData.length) {
       loadQuiz();
     } else {
-      quiz.innerHTML = `<h1>You finished, Your Score is: ${score}/${quizData.length}</h1>`;
+      quiz.innerHTML = `<h1>Thank You! <br> Your Score is: ${score}/${quizData.length}</h1>`;
       buttonEl.style.display = "none";
       reloadBtn.style.display = "block";
     }
